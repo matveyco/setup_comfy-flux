@@ -26,6 +26,7 @@ BASE_EXTRA_WHEELS=(
   diffusers==0.27.2
   accelerate
   compel
+  huggingface_hub==0.22.2
 )
 
 # Pin NumPy stack so Mediapipe & Numba stay happy
