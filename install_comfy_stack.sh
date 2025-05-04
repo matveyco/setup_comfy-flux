@@ -23,6 +23,9 @@ PIP_EXTRA_INDEX="https://download.pytorch.org/whl/${CUDA_TAG}"
 BASE_EXTRA_WHEELS=(
   opencv-python-headless==4.10.0.82
   safetensors
+  diffusers==0.27.2
+  accelerate
+  compel
 )
 
 # Pin NumPy stack so Mediapipe & Numba stay happy
